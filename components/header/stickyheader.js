@@ -31,7 +31,7 @@ function StickyHeader() {
   return (
     <div id="sticky-header" className={`navbar${sticky.isSticky ? ' sticky' : ''}`} ref={headerRef}>
         <a href="/#">Home</a>
-        <a href="/gallery">Galerry</a>
+        <a href="/gallery">Gallery</a>
         <a href="/about">About</a>
         <a href="#" className="right">Login</a>
       </div>

@@ -3,7 +3,7 @@
     background: #051442;
     width: 100%;
     border-radius: 3%;
-   
+   ;
    
   }
   
@@ -13,6 +13,7 @@
     color: white;
     text-align: center;
     padding: 14px 20px;
+    font-weight: bold;
     
   }
   
