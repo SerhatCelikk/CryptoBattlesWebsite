@@ -16,7 +16,7 @@ export default function Home() {
         <link href="http://fonts.cdnfonts.com/css/barcade" rel="stylesheet"></link>
                 
       </Head>
-      <StickyHeader />
+      <StickyHeader style={{zIndex:10}}/>
      <Home1/>
      <Home2/>
      <Home3/>
