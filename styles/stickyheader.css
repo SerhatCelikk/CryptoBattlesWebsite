@@ -1,8 +1,8 @@
 .navbar {
     overflow: hidden;
-    background: #051442;
+    background: rgb(5, 20, 66,0.8);
     width: 100%;
-    border-radius: 3%;
+    height: max-content
    ;
    
   }
@@ -13,16 +13,20 @@
     color: white;
     text-align: center;
     padding: 14px 20px;
+    font-family: 'Barcade No Bar', sans-serif;
     font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
     
   }
   
   .navbar a.right {
     float: right;
+    
   }
   
   .navbar a:hover {
-    background-color: #ddd;
+    background-color: rgb(221, 221, 221, 0.9);
     color: #051442;
     border-radius: 3%;
   }
@@ -33,6 +37,7 @@
     width: 100%;
     transition: all 0.5s ease;
     animation: smoothScroll 1s forwards;
+   
   }
   
   @keyframes smoothScroll {
