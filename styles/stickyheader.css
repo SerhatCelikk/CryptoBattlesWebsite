@@ -2,11 +2,12 @@
 
 .navbar {
     overflow: hidden;
-    background: rgb(5, 20, 66,0.8);
+    background: rgb(45,20,79,0.8);
     width: 100%;
     height: max-content;
     z-index: 999 !important;
   }
+  
   
   .navbar a {
     float: left;
