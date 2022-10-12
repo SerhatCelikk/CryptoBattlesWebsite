@@ -1,0 +1,28 @@
+.backgroundImage{
+
+   
+    
+    @apply
+    bg-[url('../../public/gallery1-bg.png')]
+    bg-cover
+
+    
+    
+  
+}
+
+.title{
+    font-family: "Barcade No Bar", sans-serif;
+    text-align: center;
+    flex: 1 1 100%;
+    font-size: 8rem; /* 128px */
+    line-height: 1;   
+    color: white;
+    
+
+    
+}
+
+.backgroundcolor{
+    background-color: #2d144f;
+}

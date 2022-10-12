@@ -1,11 +1,12 @@
 import React from "react";
-import StickyHeader from '../components/header/stickyheader'
+import StickyHeader from '../components/header/stickyheader';
+import Gallery1 from '../components/gallery/gallery1';
 
 export default function Gallery() {
-    return (
-        <div>
+  return (
+    <div>
         <StickyHeader />
-        <h1 className="text-3xl font-bold underline">Gallery!</h1>
-        </div>
-    );
+        <Gallery1 />
+    </div>
+  );
 }
