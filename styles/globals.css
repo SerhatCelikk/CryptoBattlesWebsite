@@ -29,3 +29,5 @@ a {
     background: black;
   }
 }
+
+.web3modal-modal-lightbox { z-index: 1000 !important; }
