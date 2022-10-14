@@ -8,7 +8,7 @@ const Gallery1 = () => {
       <div className={styles.title}>
         <span className={styles.texttitle} >Gallery</span>
       </div>
-      <div >
+      <div  className={styles.bg}>
       <img className={styles.bgimg}
               
               src="https://streetmachine.oss-us-west-1.aliyuncs.com/images/gallery/bg.png"
