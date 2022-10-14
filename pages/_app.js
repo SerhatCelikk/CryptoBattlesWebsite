@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '../styles/stickyheader.css'
+
 
 
 function MyApp({ Component, pageProps }) {

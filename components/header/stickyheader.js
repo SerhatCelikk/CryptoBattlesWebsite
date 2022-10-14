@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import styles from './stickyheader.module.css';
 
 
 function StickyHeader() {
@@ -29,13 +30,15 @@ function StickyHeader() {
   }, []);
 
   return (
-    <div id="sticky-header" className={`navbar${sticky.isSticky ? ' sticky' : ''}`} ref={headerRef}>
+    <div id="sticky-header" className={ styles.navbar+" "+(sticky.isSticky ? styles.sticky : '' ) } ref={headerRef}>
         <a href="/#">Home</a>
         <a href="/gallery">Gallery</a>
         <a href="/about">About</a>
-        <a href="#" className="right">Login</a>
+        <a href="#" className={styles.right}>Login</a>
       </div>
   );
 };
 
 export default StickyHeader;
+
+
