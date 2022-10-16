@@ -1,0 +1,27 @@
+.combine3{
+    @apply
+    relative
+    p-3
+    bg-gradient-to-b from-[#9410AB] to-[#2B1349]
+    text-white
+}
+.streetMap{
+    @apply
+    relative
+    max-w-7xl
+    mx-auto
+    px-10
+    py-20
+    items-center
+    flex flex-wrap
+}
+.titleIMG{
+    @apply
+    w-16
+    rotate-[-90deg]
+   text-7xl
+   text-center
+   mt-[-600px]
+   
+
+}

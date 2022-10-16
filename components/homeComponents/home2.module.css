@@ -1,0 +1,74 @@
+.area4 {
+    background: url('https://streetmachine.club/images/team/bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+}
+.area4 .teamList {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.h3 {
+    margin: 0 0 20px 0;
+    font-family: 'Headliner No. 45';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 91px;
+    color: #FFFFFF;
+}
+.p {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+}
+.li {
+    width: 33.33%;
+    padding: 30px;
+    position: relative;
+}
+.ulTeam{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.display {
+    --essential: #056c15;
+    --blendent0: #78aa48;
+    --blendent1: #fff7f7;
+    --blendent2: #799cfb;
+    --blendent3: #ff6b47;
+    --blendent4: #8f65f9;
+    --blendent5: #1e72ff;
+    --bgcolor: #fff9f9;
+    --black0: #1e2531;
+    --black1: #4b4d5e;
+    --black2: #818393;
+    --black3: #cfd0d9;
+
+    font-family: "Black", Roboto, HelveticaNeue, Helvetica, Arial, sans-serif;
+    color: #475058;
+    cursor: var(--regular);
+    font-size: 100%;
+    font-style: normal;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    line-height: 1.2;
+    list-style: none;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 30px;
+    position: relative;
+}
