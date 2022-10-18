@@ -5,6 +5,7 @@ import StickyHeader from '../components/header/stickyheader'
 import Home1 from '../components/homeComponents/home1'
 import Home2 from '../components/homeComponents/home2'
 import Home3 from '../components/homeComponents/home3'
+import Footer from "../components/footer/footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
      <Home1/>
      <Home2/>
      <Home3/>
+     <Footer/>
     </div>
   )
 }
