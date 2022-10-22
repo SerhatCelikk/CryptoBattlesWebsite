@@ -1,0 +1,14 @@
+.backgroundImage{
+    @apply
+    bg-[url('../../public/home1-bg.png')]
+    bg-cover
+    -z-[10]
+}
+.backgroundCharacter{
+    @apply
+    bg-no-repeat
+    fixed 
+    top-0
+    right-0
+    z-0
+}

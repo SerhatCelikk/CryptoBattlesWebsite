@@ -1,0 +1,51 @@
+.footer {
+  padding-top: 50px;
+  padding: 20px;
+  background-color: rgba(12, 12, 12, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(44, 19, 73, 1) 0%,
+    rgba(12, 12, 12, 1) 80%
+  );
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.logoimg {
+  width: 100%;
+}
+
+.media {
+  padding: 20px 0;
+}
+.mediaul {
+  justify-content: center;
+  align-items: stretch;
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+.mediali {
+    width: 30px;
+ 
+}
+.mediaa {
+  cursor: var(--hover);
+}
+.mediaimg {
+  width: 100%;
+}
+
+.copy {
+  text-align: center;
+  padding: 10px 0;
+}
+.copyp {
+  color: white;
+  opacity: 0.5;
+  font-size: small;
+}

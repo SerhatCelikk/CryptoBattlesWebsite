@@ -1,0 +1,259 @@
+@import url("http://fonts.cdnfonts.com/css/barcade");
+
+.bg {
+}
+.bgimg {
+}
+@media screen and (max-width: 900px) {
+  .bgimg {
+    padding-top: 50px;
+  }
+}
+
+.banner {
+  margin: 0;
+  min-height: 200px;
+  max-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  padding: 0;
+  background-color: rgb(45, 20, 79);
+}
+.title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  top: 45%;
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    text-align: center;
+    top: 40%;
+  }
+}
+
+.texttitle {
+  font-family: "Barcade No Bar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 91px;
+  text-align: center;
+  color: #e4cbec;
+}
+
+@media screen and (max-width: 900px) {
+  .texttitle {
+    font-size: 40px;
+  }
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  
+}
+.combine {
+  background-color: rgb(45, 20, 79);
+  padding: 50px;
+  padding-top: 0px;
+}
+@media screen and (max-width: 1100px) {
+  .combine {
+    padding: 10px;
+    padding-top: 0px;
+    
+  }
+}
+
+.area1 {
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 100%;
+}
+
+.area2 {    
+}
+
+@media screen and (max-width: 900px) {
+  .area2 {
+    padding: 30px 0;
+    display: block;
+  }
+}
+
+.gallery2 { display: flex; width: 100%;
+  justify-content: space-between;
+ }
+
+.img2 {
+  margin: 20px 0 0;
+  width: 49.5%;
+  
+}
+
+@media screen and (max-width: 900px) {
+  .img2 {
+    margin-top: 15px;
+    overflow: hidden;
+  }
+}
+.img22 {
+  float: right;
+  margin: 20px 0 0;
+  width: 49.5%;
+  line-height: 1.2;
+ 
+  
+  
+}
+
+@media screen and (max-width: 900px) {
+  .img22 {
+    margin-top: 15px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+
+.gallery3 {
+  width: 100%;
+  margin: 15px 0 0;
+
+}
+
+.ul3 {
+  align-items: stretch;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+  
+}
+
+.li3 {
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: calc(25% + 20px);
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .li3 {
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.li33 {
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: calc(25% - 40px);
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .li33 {
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+.li333 {
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: calc(25% - 40px);
+}
+
+@media screen and (max-width: 900px) {
+  .li333 {
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.img3 {
+  width: 100%;
+  height: 100%;
+}
+
+.area3 {
+  background-color: rgb(45, 20, 79);
+}
+
+.gallery4 {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ul4 {
+  align-items: stretch;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+
+.li4 {
+  margin-top: 15px;
+  overflow: hidden;
+  width: calc(25% - 15px);
+  margin-right: 20px;
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .li4 {
+    overflow: hidden;
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.li44 {
+  margin-top: 15px;
+  overflow: hidden;
+  width: calc(25% - 15px);
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .li44 {
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.img4{width: 100%;
+  height: 100%;}

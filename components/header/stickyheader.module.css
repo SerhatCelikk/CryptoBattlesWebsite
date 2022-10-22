@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/barcade');
+
+.navbar {
+    overflow: hidden;
+    background: rgb(45,20,79,0.8);
+    width: 100%;
+    height: max-content;
+    z-index: 10 !important;
+    position: absolute;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-family: 'Barcade No Bar', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+    }
+  
+  .navbar a.right {
+    float: right;
+    
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(221, 221, 221, 0.9);
+    color: #051442;
+    border-radius: 3%;
+    z-index: 10 !important;
+
+  }
+  
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s ease;
+    animation: smoothScroll 1s forwards;
+    z-index: 10 !important;
+
+   
+  }
+  
+  @keyframes smoothScroll {
+    0% {
+      transform: translateY(-142px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }
