@@ -1,198 +1,205 @@
-.bigContainer{
-    background: linear-gradient(180deg, rgba(149, 16, 172, 1) 0%, rgba(42, 19, 72, 1) 100%);
+.combine1 {
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(
+    180deg,
+    rgba(149, 16, 172, 1) 0%,
+    rgba(42, 19, 72, 1) 100%
+  );
 }
 
-.banner{
-    margin: 0;
-    min-height: 200px;
-    max-height: 100vh;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
+@media screen and (max-width: 1100px) {
+  .combine1 {
+    padding: 10px;
+  }
 }
-.area1{
-    /* max-width: 2000px; */
-    margin: 0 auto;
-    @apply
-    flex
-    justify-center
-    items-center
-    bg-[rgb(146,17,170)]
-    w-full
+
+.area1 {
+  max-width: 2000px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
 }
+
+.lImg {
+  width: 30%;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  .lImg {
+    display: none;
+  }
+}
+
+.lImgg {
+  left: -10px;
+  width: 100%;
+  top: 0;
+  position: relative;
+}
+
 .cText {
-    width: 30%;
-    text-align: center;
-    -webkit-box-flex: 1;
-    
+  width: 30%;
+  text-align: center;
+  -webkit-box-flex: 1;
+  flex: 1;
 }
-.titleWelcomeToThe{
-    margin: 0 auto;
-    /* width: 80%; */
-    height: 50px;
-    left: 560px;
-    top: 1008px;
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.titleWELCOMETOTHE {
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+  left: 560px;
+  top: 1008px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
-.cornerImages{
-    width: 30%;
-    max-width: 10000px;
+
+@media screen and (max-width: 900px) {
+  .titleWELCOMETOTHE {
+    font-size: 25px;
+    cursor: default;
+  }
 }
-.titleIMG{
-    margin: 0 auto;
-    width: 80%;
-    left: 619px;
-    top: 1066px;
-    font-family: 'Headliner No. 45';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 91px;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+
+.titleIMG {
+  margin: 0 auto;
+  width: 80%;
+  left: 619px;
+  top: 1066px;
+  font-family: "Headliner No. 45";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 91px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  width: 100%;
+  text-align: center;
+  cursor: default;
 }
-.txtp{
-    width: 100%;
-    font-family: 'Barlow Condensed';
+
+.txtp {
+  width: 100%;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  cursor: default;
+}
+
+.txtpp {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 26px;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .txtpp {
+    font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
     text-align: center;
-    color: #FFFFFF;
-    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-}
-.clickButton{
-    margin: 30px auto;
-    padding: 20px 30px;
-    color: #fff;
-    display: inline-block;
-    background-color: #FAC710;
-    margin-bottom: 80px;
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    @apply
-    rounded-lg
-}
-.cardHeroGrid{
-
-
-    margin: 0px auto 20px;
-    align-items: stretch;
-    align-items: flex-start;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -o-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    @apply
-    w-[70%]
-   
-}
-.gridt {
-    padding: 20px 30px;
-    position: relative;
-    min-width: 250px;
-    -moz-box-flex: 1;
-    -webkit-box-flex: 1;
-    -o-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-}
-.explain {
-    width: 100%;
-    text-align: center;
-}
-.p{
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #fff;
-    @apply
-    text-center
-}
-.area3 .titleIMG {
-    font-family: 'Headliner No. 45';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 71px;
-    text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-}
-.area3 .partnerList {
-    max-width: 1440px;
-    margin: 30px auto;
-    margin-top: 80px;
-}
-.underPartnerList{
-    justify-content: center;
-    align-items: stretch;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -o-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-.li{
-    width: 204px;
-    height: 136px;
-    margin: 10px;
-    padding: 10px;
-    overflow: hidden;
-    background: rgba(149, 16, 172, 0.43);
-    border-radius: 13px;
-    width: 190px;
-    height: 125px;
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -o-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-
+  }
 }
 
-.img{
-    @apply
-    mx-auto
+.learnmore {
+  cursor: pointer;
+}
+
+.learnmorebutton {
+  margin: 30px auto;
+  padding: 20px 30px;
+  color: #fff;
+  display: inline-block;
+  background-color: #fac710;
+  margin-bottom: 80px;
+  font-family: "Barcade No Bar";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  -webkit-border-radius: 7px;
+}
+
+.rImg {
+  width: 30%;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  .rImg {
+    display: none;
+  }
+}
+
+.rImgg {
+  left: -10px;
+  width: 100%;
+  top: 0;
+  position: relative;
+}
+
+.area2 {
+}
+
+@media screen and (max-width: 900px) {
+  .area2 {
+    padding: 30px 0;
+    display: block;
+  }
+}
+
+.cardHeroList {
+  width: 100%;
+  min-height: 200px;
+}
+
+.cardHeroGrid {
+  width: 70%;
+  max-width: 1200px;
+  margin: 30px auto 20px;
+  align-items: stretch;
+  align-items: flex-start;
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .cardHeroGrid {
+    width: 85%;
+  }
+}
+
+.gridt {
+}
+
+.introduce {
 }
